@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harassment Detector</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <span>HARASSMENT</span>DETECTOR </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#features">features</a>
+        <a href="#pricing">pricing</a>
+        <a href="#trainers">Developers</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+</header>
+
+<!-- header section ends     -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: {{ url_for('static', filename='images/earth.jpg') }} no-repeat;">
+                <div class="content">
+                    <span>be strong, be brave</span>
+                    <h3>We can eliminate harassment together one step at a time</h3>
+                    <a href="home.html" target="_blank" class="btn">get started</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: {{ url_for('static', filename='images/woman.jpg') }} no-repeat;">
+                <div class="content">
+                    <span>be strong, be brave</span>
+                    <h3>The Days of Staying silent ends today</h3>
+                    <a href="home.html" target="_blank" class="btn">get started</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: {{ url_for('static', filename='images/home-bg.jpg') }} no-repeat;">
+                <div class="content">
+                    <span>be strong, be brave</span>
+                    <h3>Don't be a victim, Take action</h3>
+                    <a href="home.html" target="_blank" class="btn">get started</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="static/images/cc.png" alt="">
+    </div>
+
+    <div class="content">
+        <span>about us</span>
+        <h3 class="title">Every day is a chance to stop harassment</h3>
+        <p>Welcome to our website dedicated to fighting against harassment. We recognize that harassment can have devastating effects on individuals and communities, and we believe that technology can play a powerful role in combatting it. Our website is designed to provide you with the tools, resources, and support you need to create a safer online environment.</p>
+        <div class="box-container">
+            <div class="box">
+                <h3><i class="fas fa-check"></i>body and mind</h3>
+                <p>safeguard your online presence safeguard your well being</p>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-check"></i>healthy life</h3>
+                <p>ongoing support to help you stay healthy.</p>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-check"></i>strategies</h3>
+                <p>Most up-to-date strategies for combating harassment.</p>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-check"></i>consulting services</h3>
+                <p>organizations looking to develop harassment prevention plans</p>
+            </div>
+        </div>
+        <a href="#" class="btn">read more</a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> <span>Web features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="static/images/Cloud.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="static/images/icon-1.png" alt="">
+                <h3>Cloud Platform</h3>
+                <p>GCP/AWS that detects harassments that handles loaded balanced data</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box second">
+            <div class="image">
+                <img src="static/images/AI.png" alt="">
+            </div>
+            <div class="content">
+                <img src="static/images/icon-2.png" alt="">
+                <h3>Machine Learning</h3>
+                <p>Harassment Detection on online platforms such as social media platforms, messaging platforms, and others</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="static/images/banner.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="static/images/icon-3.png" alt="">
+                <h3>Deployment</h3>
+                <p>model is integrated into a web app, showcases the implementation on a decent-scale and static set of data.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- pricing section starts  -->
+
+<section class="pricing" id="pricing">
+
+    <div class="information">
+        <span>pricing plan</span>
+        <h3>affordable pricing plan for your</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam dolore excepturi ea suscipit fugiat cum quae, rerum optio mollitia! Tempora?</p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <a href="#" class="btn">all pricing</a>
+    </div>
+
+    <div class="plan basic">
+        <h3>basic plan</h3>
+        <div class="price"><span>$</span>10<span>/mo</span></div>
+       <div class="list">
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+       </div>
+       <a href="#" class="btn">get started</a>
+    </div>
+
+    <div class="plan">
+        <h3>premium plan</h3>
+        <div class="price"><span>$</span>15<span>/mo</span></div>
+       <div class="list">
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+        <p> <i class="fas fa-check"></i> placeholder </p>
+       </div>
+       <a href="#" class="btn">get started</a>
+    </div>
+
+</section>
+
+<!-- pricing section ends -->
+
+<!-- trainers section starts  -->
+
+<section class="trainers" id="trainers">
+
+    <h1 class="heading"> <span>Team Developers</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="static/images/pic1.png" alt="">
+            <div class="content">
+                <span>Team Developer</span>
+                <h3>Preetham Thelluri</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="static/images/pic2.jpg" alt="">
+            <div class="content">
+                <span>Team Developer</span>
+                <h3>Pedro Silverio</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="static/images/pic3.png" alt="">
+            <div class="content">
+                <span>Team Developer</span>
+                <h3>Mridula Venkatasamy</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="static/images/pic4.png" alt="">
+            <div class="content">
+                <span>Team Developer</span>
+                <h3>Sydney Varner</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- trainers section ends -->
+
+<!-- banner section starts  -->
+
+<section class="banner">
+
+    <span>join us now</span>
+    <h3>Introducing Harassment Detector Plus</h3>
+    <p>We are launching a pilot subscription plan for Harassment Detector. 50% off for first 1000 users</p>
+    <a href="#" class="btn">get discount</a>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- review section starts  -->
+
+<section class="review">
+
+    <div class="information">
+        <span>testimonials</span>
+        <h3>what our mentors says</h3>
+        <p>The testimonials are from our professors at GSU who have guided us for years and have also given us a critical role in understanding a path to success in career development and growth.</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <p>The project was executed with precision and using the latest cloud technologies</p>
+                <div class="user">
+                    <img src="static/images/pic-1.png" alt="">
+                    <div class="info">
+                        <h3>Lipeng Wan</h3>
+                        <span>computer scientist</span>
+                    </div>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>They demonstrated an excellent understanding of the subject matter</p>
+                <div class="user">
+                    <img src="static/images/pic-2.png" alt="">
+                    <div class="info">
+                        <h3>william gregory johnson</h3>
+                        <span>software engineer</span>
+                    </div>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>demonstrated a thorough understanding of the complexities</p>
+                <div class="user">
+                    <img src="static/images/pic-3.png" alt="">
+                    <div class="info">
+                        <h3>Murray Patterson</h3>
+                        <span>Assistant Professor</span>
+                    </div>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>outstanding ability to build a scalable and secure web application that leveraged the power of the cloud.</p>
+                <div class="user">
+                    <img src="static/images/pic-4.png" alt="">
+                    <div class="info">
+                        <h3>Robert Joseph</h3>
+                        <span>designer</span>
+                    </div>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>daily posts</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="static/images/phone.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <div class="link"> <a href="#">by pew research</a> <span>|</span> <a href="#">13th January, 2021</a> </div>
+                    <h3>The State of Online Harassment</h3>
+                    <p>Roughly four-in-ten Americans have experienced online harassment, with half of this group citing politics as the reason.</p>
+                    <a href="https://www.pewresearch.org/internet/2021/01/13/the-state-of-online-harassment/"  target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+            
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="static/images/chat.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="link"> <a href="#">by emily a. vogels</a> <span>|</span> <a href="#">13th January, 2021</a> </div>
+                    <h3>Personal experiences with online harassment</h3>
+                    <p>Online harassment is a nuanced and complex topic that can involve a multitude of behaviors.</p>
+                    <a href="https://www.pewresearch.org/internet/2021/01/13/personal-experiences-with-online-harassment/" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="static/images/chat2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <div class="link"> <a href="#">by BLS</a> <span>|</span> <a href="#">16th January, 2023</a> </div>
+                    <h3>How To Stop Online Harassment</h3>
+                    <p>If you are experiencing cyber harassment, stalking, or bullying, it can be difficult to know where to turn.</p>
+                    <a href="https://www.boscolegal.org/blog/how-to-stop-online-harassment/" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="static/images/city.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="link"> <a href="#">by Stella Morrison</a> <span>|</span> <a href="#">21st February, 2023</a> </div>
+                    <h3>How to Handle Social Media Harassment</h3>
+                    <p>Social media harassment poses a serious threat, not just to young adults.</p>
+                    <a href="https://www.businessnewsdaily.com/2475-handle-social-media-harassment.html" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="static/images/Dark.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="link"> <a href="#">by Jennifer Wilkerson</a> <span>|</span> <a href="#">25th January, 2023</a> </div>
+                    <h3>Learn how to protect yourself against online harassment</h3>
+                    <p>Online harassment can occur while using everyday digital technologies</p>
+                    <a href="https://michigan.it.umich.edu/news/2023/01/25/learn-how-to-protect-yourself-against-online-harassment/" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="links" href="#home">home</a>
+            <a class="links" href="#about">about</a>
+            <a class="links" href="#features">features</a>
+            <a class="links" href="#pricing">pricing</a>
+            <a class="links" href="#trainers">Developers</a>
+            <a class="links" href="#blogs">blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>opening hours</h3>
+            <p> monday : <i> 7:00am - 10:30pm </i> </p>
+            <p> tuesday : <i> 7:00am - 10:30pm </i> </p>
+            <p> wednesday : <i> 7:00am - 10:30pm </i> </p>
+            <p> friday : <i> 7:00am - 10:30pm </i> </p>
+            <p> saturday : <i> 7:00am - 10:30pm </i> </p>
+            <p> sunday : <i> closed </i> </p>
+        </div>
+
+        <div class="box">
+            <h3>Contact Information</h3>
+            <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
+            <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
+            <p> <i class="fas fa-envelope"></i> placeholder@gmail.com </p>
+            <p> <i class="fas fa-map"></i> Atlanta, Georgia - 30303 </p>
+            <div class="share">
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-github"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" class="email" placeholder="enter your email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<div class="credit"> created by <span>Team 7</span> | Cloud Computing Project </div>
+
+<!-- footer section ends -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="static/js/script.js"></script>
+
+</body>
+</html>
