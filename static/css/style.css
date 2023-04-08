@@ -28,6 +28,7 @@ html::-webkit-scrollbar-track {
   background: #000;
 }
 
+
 html::-webkit-scrollbar-thumb {
   background: #f00;
 }
