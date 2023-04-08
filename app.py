@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import numpy as np
+# import numpy as np
 # import pickle
 # import nltk
 # nltk.download('stopwords')
@@ -45,4 +45,4 @@ def predict_da_text():
 
 if __name__ == '__main__':
 	load_da_model()
-	app.run(host='0.0.0.0', debug=True, port=2222)
+	app.run(host='0.0.0.0', debug=True, port=5000)
