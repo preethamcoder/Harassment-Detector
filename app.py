@@ -26,7 +26,7 @@ def predict_da_text():
 		predicted = model.predict(text.lower())
 		res = "inappropriate" if predicted[0][0][-1]=='1' else "okay"
 		if res == "inappropriate":
-			verdict = "Expand your vocab, find better words."
+			verdict = "Can't be saying that."
 			col = "orange"
 			img = "static/images/no.png"
 		else:
