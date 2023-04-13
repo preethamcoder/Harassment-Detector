@@ -8,6 +8,7 @@ def load_da_model():
 	global model
 	model = fasttext.load_model("trained.ftz")
 
+
 @app.route('/')
 def home():
 	return render_template("index.html")
@@ -20,17 +21,20 @@ def meth():
 def predict_da_text():
 	if request.method == 'POST':
 		stuff = request.form
-		text = stuff['inp']
+		text = ' '.join(stuff['inp'].split('\n'))
 		print(text)
 		predicted = model.predict(text.lower())
-		res = "hate" if predicted[0][0][-1]=='1' else "not hate"
-		if res == "hate":
-			verdict = "watch what you say, dumbass"
+		res = "inappropriate" if predicted[0][0][-1]=='1' else "okay"
+		if res == "inappropriate":
+			verdict = "Expand your vocab, find better words."
+			col = "orange"
+			img = "static/images/no.png"
 		else:
-			verdict = "this is fine"
-	return render_template('pred.html', shit=text, pred=res, verdict=verdict)
+			verdict = "At least you aren't a drag to hang with."
+			col = "#0f0"
+			img = "static/images/ok.jpeg"
+	return render_template('pred.html', say=text, pred=res, verdict=verdict, box=col, img=img)
 
 if __name__ == '__main__':
 	load_da_model()
 	app.run(host='0.0.0.0', debug=True, port=5000)
-
