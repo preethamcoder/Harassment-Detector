@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Environment</title>
-
+    <title>Text Eater</title>
     <!-- custom css file link  -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
+<style>
+    body {
+    background-image: url('static/images/harass.png');
+}
+</style>
 <body>
-    <header class="header">
-
-        <p class="logo"> <span>HARASSMENT</span>DETECTOR </p>
-    
-    </header>
     <div class="test">
-        <h1><span>Enter your comment here to test the harrassment detctor<br></span></h1>
+       <br><h1 style="color:purple">Enter your comment here to test the harrassment detector<br></h1>
         <form action="pred.html" method="post">
-        <input type="text" id="inp" name="inp">
-        <input type="submit" value="SEND"/>
+        <textarea id="inp" name="inp" required style="width:300px;height:50px"></textarea><br>
+        <input type="submit" style="padding: 16px 32px;background-color:#FFA500" value="SEND"/>
         </form>
     </div>
 </body>
