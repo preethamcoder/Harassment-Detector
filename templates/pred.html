@@ -9,14 +9,17 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="static/css/style.css">
 </head>
+<style>
+    body {
+    background-image: url('{{img}}');
+    height: 100%;
+    background-size: cover;
+}
+</style>
 <body>
     <header class="header">
-
         <p class="logo"> <span>HARASSMENT</span>DETECTOR </p>
-    
-    </header>
-    <div class="test">
-    <h1><p><span>"{{shit}}" is considered {{pred}}. {{verdict}}</span></p></h1>
-    </div>
-</body>
+    </header><div class="test">
+    <h1><p style="color:{{box}}">"{{say}}" is considered {{pred}}. {{verdict}}</p></h1>
+</div></body>
 </html>
