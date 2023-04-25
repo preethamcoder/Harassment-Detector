@@ -1,6 +1,6 @@
 # Harrassment-Detector
 
-This is an attempt to strictly moderate online speech and fight harassment. After testing across multiple servers and with friends and family of varied views, we concluded that most of the obfuscated speech has been flagged, better than most online models - including Instagram, TikTok, and Discord. 
+This is an attempt to strictly moderate online speech and fight harassment. After testing across multiple servers and with peers and testers of varied views, we concluded that most of the obfuscated speech has been flagged, better than most online models - including Instagram, TikTok, and Discord. 
 
 # Steps To Use:
 1. Git clone this repository by running ```git clone https://github.com/preethamcoder/Harassment-Detector.git```
