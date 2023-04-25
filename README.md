@@ -9,7 +9,7 @@ This is an attempt to strictly moderate online speech and fight harassment. Afte
 4. To obtain the model and datasets we used, you will need to request access at ```preetham23415@gmail.com```. We shall get back to you based on the order of emails received.
 5. Once you have the model downloaded, simply run ```python3 app.py``` and open your localhost to experience this.
 
-# Warnings
+# Requests From Developers:
 Please do not misuse this, make sure to credit the creators of this if used anywhere.
 
 # Acknowledgements:
