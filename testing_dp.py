@@ -5,4 +5,4 @@ def subsets(lst):
   return res
 
 if __name__ == '__main__':
-  print(subsets([1, 2, 3, 4, 5])
+  print(subsets([1, 2, 3, 4, 5]))
