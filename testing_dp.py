@@ -1,7 +1,7 @@
 def subsets(lst):
   res = [[]]
   for l in lst:
-    res += [each + [l] for each in lst]
+    res += [each + [l] for each in res]
   return res
 
 if __name__ == '__main__':
